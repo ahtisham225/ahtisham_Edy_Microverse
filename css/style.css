@@ -1,0 +1,20 @@
+#header nav{
+ position: fixed;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ min-height: 8vh;
+ background-color: aquamarine;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+width: 100%;
+}
+#header-img{
+    width: 60px;
+}
+.nav-link{
+    list-style-type: style none;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
