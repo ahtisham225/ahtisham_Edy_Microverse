@@ -1,20 +1,88 @@
-#header nav{
- position: fixed;
- display: flex;
- justify-content: space-around;
- align-items: center;
- min-height: 8vh;
- background-color: aquamarine;
- font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-width: 100%;
+*{
+    box-sizing: border-box;
 }
-#header-img{
-    width: 60px;
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: #e7fdd8;
 }
-.nav-link{
-    list-style-type: style none;
-    text-decoration: none;
+#header{
+    margin-bottom: 5rem;
 }
-ul{
+#nav-bar{
+    display: flex;   /* This is to place the nav-title and nav-links next to another */
+    justify-content: space-between;  /* This is push apart or add space between the nav-title and the nav-links  */
+    align-items: center;  /* To align items to the center of eachother on the horizontal plane or row*/
+    background-color: rgb(29, 110, 110);
+    color: beige;
+    
+}
+
+.nav-title{
+    display: flex; /* to align logo and company name side by side*/
+    align-items: center; /* To align center the logo and the company name on the x axis or row*/
+    font-size: 1.5rem;    
+    margin-left: 4rem;  /* to move the nav title and logo to the right and not abstruct the test button */
+}
+.nav-title span{
+    padding: 1rem;
+}
+.nav-links ul{
+    margin: 0; padding: 0;
+    display: flex; /*To align the nav links side by side*/
+}
+.nav-links li{
     list-style: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: beige;
+    padding: 1rem;
+}
+.nav-links li :hover{
+    background-color: rgb(3, 19, 48);
+}
+#Logo{
+    width: 50px;
+}
+#video{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;    
+    
+}
+h1{
+    text-align: center;
+}
+#main{
+    height: 100%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+#main h1{
+    margin-bottom: 4rem;
+}
+#main img{
+    width: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30vh;
+}
+#form{
+    display: flex;
+    justify-content: center;
+    margin: 0 6rem 0 6rem;
+}
+#contact{
+    background-color: rgb(9, 9, 14);
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 8rem;
+    color: beige;
+    height: 100vh;
+}
+#contact h1{
+    margin-bottom: 4rem;
 }
